@@ -22,7 +22,17 @@ padding:0px;
     text-align:justify;
     font-weight: lighter;
     font-family: cursive;
-    background-color: #fff;
+    background-color: lightgray;
+    color:#000;
+}
+.youths{
+    font-size: 20px;
+    padding-left: 350px;
+    float: left;
+    text-align:justify;
+    font-weight: lighter;
+    font-family: cursive;
+    background-color: lightgray;
     color:#000;
 }
 .pesh{
@@ -32,10 +42,34 @@ padding:0px;
     text-align:justify;
     font-weight: lighter;
     font-family: cursive;
-    background-color: #fff;
+    background-color: lightgray;
     color:#000;
 }
 #img1{
+    float:left;
+    padding-left:0px ;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+}
+#img2{
+    float:left;
+    padding-left:0px ;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+}
+#img3{
+    float:left;
+    padding-left:0px ;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+}
+#img4{
     float:left;
     padding-left:0px ;
     padding-top: 10px;
@@ -70,4 +104,65 @@ p{
   text-align:center;
   color:#364052;
   font-family: sans-serif;
+}
+.pe{
+  text-align:center;
+  color:#364052;
+  font-family:serif;
+}
+.pi{
+  text-align:center;
+  color:#364052;
+  font-family:serif;
+}
+.icons {
+  text-align:center;
+  }
+.icons i{
+  font-size: 25px;
+  }
+.icons ul li{
+  display: inline;
+  list-style: none;
+  padding-right: 30px;
+}
+.icons ul li a{
+  color:blue;
+}
+.footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: teal;
+   text-align:center;
+}
+
+
+.nav ul{
+  float: right;
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+.nav a:hover{
+    color:blue;
+    background:#808080;
+    filter:brightness(50%);
+    text-shadow: -1px -1px -1px darkgray;
+  }
+
+
+.nav ul li{
+  padding-top: 5%;
+  display: inline-block;
+  font-family:'opensans-regular',sans-serif;
+}
+
+.nav ul li a{
+  padding-top: 3%;
+  padding: 8px 25px;
+  color:white;
+  font-size: 20px;
+  text-decoration: none;
 }
